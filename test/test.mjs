@@ -3,7 +3,7 @@ import hbjs from "../hbjs.js";
 
 
 const buffer = await fs.readFile(
-    "./hb.wasm"
+    "./hb-subset.wasm"
 );
 const source = await WebAssembly.instantiate(buffer);
 const api = hbjs(source.instance);

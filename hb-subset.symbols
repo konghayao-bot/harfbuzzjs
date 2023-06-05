@@ -31,6 +31,10 @@ _hb_subset_input_unicode_set
 _hb_subset_input_keep_everything
 _hb_subset_or_fail
 _hb_subset_preprocess
+_hb_set_create
+_hb_set_destroy
+_hb_set_get_population
+_hb_set_next_many
 _malloc
 _free
 _free_ptr
