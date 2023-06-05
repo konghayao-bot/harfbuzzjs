@@ -31,3 +31,4 @@ _hb_subset_or_fail
 _hb_subset_preprocess
 _malloc
 _free
+_free_ptr

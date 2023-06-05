@@ -1,8 +1,9 @@
 {
-  "name": "harfbuzzjs",
+  "name": "@konghayao/harfbuzzjs",
   "version": "0.3.3",
   "description": "Minimal version of HarfBuzz for JavaScript use",
   "main": "index.js",
+  "files": ["hb-subset.wasm","hbjs.js"],
   "scripts": {
     "test": "mocha test/index.js"
   },
